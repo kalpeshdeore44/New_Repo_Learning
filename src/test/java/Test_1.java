@@ -10,7 +10,7 @@ public class Test_1 {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.google.com/");
 		driver.findElement(By.cssSelector("textarea[title='Search']")).sendKeys("iPhone");
-
+		driver.findElement(By.cssSelector(text[title=search]));
 
 	}
 
